@@ -1,0 +1,55 @@
+.app-container {
+  min-height: 500px;
+}
+
+.container {
+  min-height: 300px;
+}
+
+/*MainPage*/
+
+.present-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #050025; /* TODO Заменить на картинку */
+  color: #fdeca6;
+}
+
+.date-text {
+  margin: 20px auto 20px 20px;
+  flex: 1
+}
+
+.main-text-container {
+  flex: 6;
+}
+
+.main-text {
+  font-size: 3em;
+}
+
+.days-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.day-box {
+  border: 2px black solid;
+  min-width: 250px;
+}
+
+.day-box a {
+  color: black;
+}
+
+.citation-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #050025; /* TODO Заменить на картинку */
+  color: #fdeca6;
+  height: 300px;
+}

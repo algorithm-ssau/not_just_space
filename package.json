@@ -1,0 +1,30 @@
+{
+  "name": "njs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algorithm-ssau/not_just_space.git"
+  },
+  "author": "Denis Volkov <denwolfnight@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algorithm-ssau/not_just_space/issues"
+  },
+  "homepage": "https://github.com/algorithm-ssau/not_just_space#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.3"
+  }
+}
