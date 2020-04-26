@@ -1,0 +1,35 @@
+.closed-window {
+    display: none;
+}
+
+.modal-block {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc66;
+}
+
+.window-block {
+    width: 475px;
+    height: 475px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+    color: black;
+    overflow: 'scroll';
+}
+
+.window-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.window-content {
+    max-height: 90%;
+    overflow: auto;
+}

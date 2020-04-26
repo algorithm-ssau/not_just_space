@@ -1,8 +1,10 @@
 import React from 'react'
 import './headermenu.css'
+import { AuthWnd } from '../authwnd/authwnd'
+import { useToggle } from '../../hooks/useToggle'
 
 export const HeaderMenu = () => {
-    var test = () => {console.log(1)}
+    var [isShowing, toggle] = useToggle();
     return (
         <header className="app-header">
 
@@ -10,7 +12,6 @@ export const HeaderMenu = () => {
                 <button
                     id="menu-btn"
                     className="menu-btn"
-                    onClick={test}
                 >
                     <h3>{'\u2630'} </h3>{/* \u2630 - 3 полоски */}
                 </button>
@@ -21,9 +22,16 @@ export const HeaderMenu = () => {
                 Территория Космоса
             </h1>
 
-            <button className="register-btn">
+            <button
+                className="register-btn"
+                onClick={toggle}
+            >
                 Регистрация
             </button>
+            <AuthWnd
+                isShowing={isShowing}
+                hide={toggle}
+            />
         </header>
     );
 }
