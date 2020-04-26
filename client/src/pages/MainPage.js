@@ -28,7 +28,7 @@ export const MainPage = () => {
                     <div className="day-box">
                         <center>
                             <h2>
-                                <a href="#days">День 1</a>{/* TODO заменить href */}
+                                <a href="#days">День 1</a>{/* TODO заменить href, а может и вообще убрать и вставить окошки*/}
                             </h2>
                         </center>
                         <ul>
@@ -40,7 +40,7 @@ export const MainPage = () => {
                     <div className="day-box">
                         <center>
                             <h2>
-                                <a href="#days">День 2</a>{/* TODO заменить href */}
+                                <a href="#days">День 2</a>{/* TODO заменить href, а может и вообще убрать и вставить окошки*/}
                             </h2>
                         </center>
                         <ul>
@@ -52,7 +52,7 @@ export const MainPage = () => {
                     <div className="day-box">
                         <center>
                             <h2>
-                                <a href="#days">День 3</a>{/* TODO заменить href */}
+                                <a href="#days">День 3</a>{/* TODO заменить href, а может и вообще убрать и вставить окошки*/}
                             </h2>
                         </center>
                         <ul>
@@ -66,7 +66,7 @@ export const MainPage = () => {
 
             <hr />
 
-            <div className="container citation-container"> {/* Реализовать карусель с цитатами */}
+            <div className="container citation-container"> {/* TODO Реализовать карусель с цитатами */}
                 <center>
                     <h3>
                         Какая-то цитата

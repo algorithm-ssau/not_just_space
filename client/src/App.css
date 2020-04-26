@@ -28,6 +28,7 @@
 
 .main-text {
   font-size: 3em;
+  max-width: 900px;
 }
 
 .days-container {
