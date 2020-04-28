@@ -5,14 +5,7 @@
     background-color: black;
     color: #fdeca6;
     height: 50px;
-    padding: auto 10px auto 10px;
-}
-
-.menu-btn {
-    background-color: #00000000;
-    color: #fdeca6;
-    border: 0;
-    outline: none;
+    padding: 10px 10px;
 }
 
 .register-btn {
@@ -20,9 +13,13 @@
     border: 0;
     border-radius: 15px;
     height: 30px;
+    width: 150px;
     outline: none;
+    cursor: pointer;
+    transition: all .3s ease 0s;
 }
 
 .register-btn:active {
     background-color: #da5;
+
 }
