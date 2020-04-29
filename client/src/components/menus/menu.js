@@ -6,15 +6,14 @@ import './menu_style.css'
 export const Menus = () => {
     return(
         <header class="header">
-            <img scr="client/src/components/menus/logo.png" alt="logo" className="logo"></img>
             <nav>
-                <ul className="nav_links">
-                    <li><a href="#">О форуме</a></li>
-                    <li><a href="#">Программа</a></li>
-                    <li><a href="#">Мероприятия</a></li>
-                    <li><a href="#">Контакты</a></li>
+                <ul_header className="nav_links">
+                    <li_header><a_header href="client/src/pages/About_forum.js">О форуме</a_header></li_header>
+                    <li_header><a_header href="#">Программа</a_header></li_header>
+                    <li_header><a_header href="#">Мероприятия</a_header></li_header>
+                    <li_header><a_header href="#">Контакты</a_header></li_header>
 
-                </ul>
+                </ul_header>
             </nav>
         </header>
 )

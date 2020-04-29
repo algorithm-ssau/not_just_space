@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-li, a{
+li_header, a_heder{
     font-family: "Baloo Bhaina 2", cursive;
     font-weight: 500;
     font-size: 17px;
@@ -16,29 +16,26 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 40px;
     height: 50px;
     background-color: black;
 }
 
-.logo{
-    cursor: pointer;
-
-}
 
 .nav_links{
     list-style: none;
 }
 
-.nav_links li{
+.nav_links li_header{
     display: inline-block;
     padding: 20px 40px;
 }
 
-.nav_links li a{
+.nav_links li_header a_header{
     transition: all .3s ease 0s;
 }
 
-.nav_links li a:hover {
+.nav_links li_header a_header:hover {
+    cursor: pointer;
     color: darkgoldenrod;
 }

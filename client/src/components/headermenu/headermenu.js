@@ -9,12 +9,9 @@ export const HeaderMenu = () => {
     return (
         <header className="app-header">
 
-            <Menus/>
-
-            <button
-                className="register-btn"
-                onClick={toggle}
-            >
+            <img scr="" alt="logo" className="logo"></img>
+            <center> <Menus /></center>
+            <button className="register-btn">
                 Регистрация
             </button>
             <AuthWnd
