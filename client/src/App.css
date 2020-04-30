@@ -1,3 +1,4 @@
+
 .app-container {
   min-height: 500px;
 }
@@ -24,6 +25,7 @@
 
 .main-text-container {
   flex: 6;
+  z-index: 1;
 }
 
 .main-text {
@@ -53,6 +55,7 @@
   background-color: #050025; /* TODO Заменить на картинку */
   color: #fdeca6;
   height: 300px;
+
 }
 
 
