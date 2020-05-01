@@ -9,10 +9,11 @@ export const Menus = () => {
 
             <nav>
                 <ul_header className="nav_links">
-                    <li_header><NavLink class="nav_l" to="/client/src/pages/About_forum.js">О форуме</NavLink>
+                    <li_header>
+                        <NavLink class="nav_l" to="/client/src/pages/AboutForum/About_forum.js">О форуме</NavLink>
                     </li_header>
                     <li_header>
-                        <a_header href="#">Программа</a_header>
+                        <NavLink class="nav_l" to="/client/src/pages/Programm/Programm.js">Программа</NavLink>
                     </li_header>
                     <li_header>
                         <a_header href="#">Мероприятия</a_header>

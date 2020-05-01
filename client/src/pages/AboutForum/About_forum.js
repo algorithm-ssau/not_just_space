@@ -1,11 +1,11 @@
 import React from 'react'
-import '../App.css'
-import smile from './smile.png'
-import map from'./map.png'
+import '../../App.css'
+import map1 from './map1.jpg'
+import map2 from'./map2.jpg'
 
 export const AboutForum = () => {
     return (
-        <div>
+        <div className="aboutForum">
             <div>
                 <p><b>Всероссийский космический форум «НеПростоКосмос»</b> представляет из себя комплекс
                     мероприятий образовательной, научной, просветительской и патриотической направленности</p>
@@ -26,7 +26,7 @@ export const AboutForum = () => {
 
                     </div>
                     <div className="col_1-3">
-                        <img src={smile} alt="smile" width="200" height="200"></img>
+                        <img src={map1} alt="map1" width="226" height="249"></img>
                     </div>
 
                 </div>
@@ -34,7 +34,7 @@ export const AboutForum = () => {
                 <div>
                     <br></br>
                     <p><b>Цели проведения:</b></p>
-                    <ul type="disc">
+                    <ul className="cels">
                         <li>создание ежегодной площадки с целью объединения усилий молодых учёных и
                             специалистов аэрокосмической отрасли для обсуждения и анализа основных
                             тенденций и вызовов развития исследований и новых технологий, формирования
@@ -50,8 +50,8 @@ export const AboutForum = () => {
                 </div>
 
                 <div>
-                    <p><b>Участники мероприятия</b></p>
-                    <ul type="disc">
+                    <p><b>Участники мероприятия:</b></p>
+                    <ul className="cels">
                         <li>студенты, аспиранты и молодые учёные вузов;</li>
                         <li>специалисты предприятий;</li>
                         <li>учащиеся образовательных учреждений Самарской области.</li>
@@ -60,12 +60,12 @@ export const AboutForum = () => {
                 </div>
 
                 <div>
-                    <img src={map} alt="map" width="700" height="300"></img>
+                    <img src={map2} alt="map2" width="430" height="250"></img>
 
                 </div>
 
                 <div>
-                    <br></br>
+                    <br></br><br></br>
                     <p>Форум не имеет возрастных и профессиональных ограничений и охватывает широкую аудиторию
                         0+.</p>
                 </div>
