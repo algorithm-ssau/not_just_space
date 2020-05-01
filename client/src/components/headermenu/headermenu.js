@@ -3,15 +3,16 @@ import './headermenu.css'
 import { AuthWnd } from '../authwnd/authwnd'
 import { useToggle } from '../../hooks/useToggle'
 import {Menus} from "../menus/menu";
-import logos from "../menus/logo.png";
+import '../menus/menu_fixed.js'
 
 export const HeaderMenu = () => {
     var [isShowing, toggle] = useToggle();
     return (
+        <body>
         <header className="app-header">
 
-            <img src ={logos} alt="logo" height="50"></img>
-            <center> <Menus /></center>
+            <img src="#" alt="logo" height="50"></img>
+            <center><Menus/></center>
             <button className="register-btn">
                 Регистрация
             </button>
@@ -20,5 +21,7 @@ export const HeaderMenu = () => {
                 hide={toggle}
             />
         </header>
+        <script src="/menu_fixed.js"></script>
+        </body>
     );
 }

@@ -1,0 +1,47 @@
+
+.education p{
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.head{
+    background-color: #050025;
+}
+.head h1{
+    color: #fdeca6;
+}
+
+.ed li{
+    list-style: circle;
+    margin-left: 30px;
+}
+.ed2 li{
+    list-style: square;
+    margin-left: 30px;
+}
+.tabl1{
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background-color: #ddaa55;
+    color: white;
+}
+.tabl1{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.tabl1 th{
+    font-size:  18px;
+    padding: 10px;
+}
+.tabl1 td{
+    background-color: #050025;
+    padding: 10px;
+}
+
+.ol1 li{
+    margin-left: 30px;
+}

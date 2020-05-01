@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
-import map1 from './map1.jpg'
-import map2 from'./map2.jpg'
+//import map1 from './map1.jpg'
+//import map2 from'./map2.jpg'
 
 export const AboutForum = () => {
     return (
@@ -26,7 +26,7 @@ export const AboutForum = () => {
 
                     </div>
                     <div className="col_1-3">
-                        <img src={map1} alt="map1" width="226" height="249"></img>
+
                     </div>
 
                 </div>
@@ -60,7 +60,6 @@ export const AboutForum = () => {
                 </div>
 
                 <div>
-                    <img src={map2} alt="map2" width="430" height="250"></img>
 
                 </div>
 
