@@ -17,7 +17,7 @@ export const BaseWnd = ({ wndTitle, isShowing, hide, ...props }) => {
                         {wndTitle}
                     </div>
                     <button
-                        className="window-icon"
+                        className="window-icon close"
                         onClick={hide}
                     >
                         X

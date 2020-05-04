@@ -33,3 +33,16 @@
     max-height: 90%;
     overflow: auto;
 }
+
+.window-icon.close {
+    border-radius: 50%;
+    background-color: #F88;
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.window-icon.close:hover {
+    background-color: #E77;
+}
