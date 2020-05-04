@@ -1,3 +1,4 @@
+
 .app-header {
     display: flex;
     justify-content: space-between;
@@ -5,14 +6,8 @@
     background-color: black;
     color: #fdeca6;
     height: 50px;
-    padding: auto 10px auto 10px;
-}
+    padding: 30px;
 
-.menu-btn {
-    background-color: #00000000;
-    color: #fdeca6;
-    border: 0;
-    outline: none;
 }
 
 .register-btn {
@@ -20,9 +15,32 @@
     border: 0;
     border-radius: 15px;
     height: 30px;
+    width: 150px;
     outline: none;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+
 }
 
 .register-btn:active {
     background-color: #da5;
+
+}
+.header_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: showElement;
+    animation-duration: 1s;
+}
+@keyframes showElement{
+    0% {
+        opacity: 0;
+        top: -70px;
+    }
+
+    100% {
+        opacity: 1;
+        top: 0;
+    }
 }

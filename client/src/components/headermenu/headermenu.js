@@ -2,30 +2,19 @@ import React from 'react'
 import './headermenu.css'
 import { AuthWnd } from '../authwnd/authwnd'
 import { useToggle } from '../../hooks/useToggle'
+import {Menus} from "../menus/menu";
+import '../menus/menu_fixed.js'
+import logo from './logo1.png'
 
 export const HeaderMenu = () => {
     var [isShowing, toggle] = useToggle();
     return (
+        <body>
         <header className="app-header">
 
-            <div>
-                <button
-                    id="menu-btn"
-                    className="menu-btn"
-                >
-                    <h3>{'\u2630'} </h3>{/* \u2630 - 3 полоски */}
-                </button>
-                <label htmlFor="menu-btn">Meню</label>
-            </div>
-
-            <h1>
-                Территория Космоса
-            </h1>
-
-            <button
-                className="register-btn"
-                onClick={toggle}
-            >
+            <img src={logo} alt="logo" height="60"></img>
+            <center><Menus/></center>
+            <button className="register-btn">
                 Регистрация
             </button>
             <AuthWnd
@@ -33,5 +22,7 @@ export const HeaderMenu = () => {
                 hide={toggle}
             />
         </header>
+        <script src="/menu_fixed.js"></script>
+        </body>
     );
 }

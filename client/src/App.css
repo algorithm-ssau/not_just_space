@@ -1,9 +1,11 @@
+
 .app-container {
   min-height: 500px;
 }
 
 .container {
   min-height: 300px;
+
 }
 
 /*MainPage*/
@@ -24,6 +26,7 @@
 
 .main-text-container {
   flex: 6;
+  z-index: 1;
 }
 
 .main-text {
@@ -35,6 +38,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .day-box {
@@ -53,4 +57,51 @@
   background-color: #050025; /* TODO Заменить на картинку */
   color: #fdeca6;
   height: 300px;
+
 }
+
+
+/*About_forum*/
+.aboutForum{
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.col_2-3{
+  width: 69.6666666667%;
+  float: left;
+}
+
+.col_1-3 {
+  width: 30.3333333333%;
+  float: left;
+  padding-left: 20px;
+}
+
+.cels{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+/*Programm*/
+.downloadPdf{
+  margin: 20px;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 120%;
+  max-width: 240px;
+  background-color: yellow;
+}
+.downloadPdf:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
