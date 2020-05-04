@@ -1,27 +1,9 @@
-*{
-    box-sizing:border-box;
-    margin: 0;
-    padding: 0;
-    z-index: 99999;
-}
-li_header, a_heder{
+.nav_links li, .nav_links a{
     font-family: "Baloo Bhaina 2", cursive;
     font-weight: 500;
     font-size: 17px;
     color: #fdeca6;
     text-decoration: none;
-
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 40px;
-    height: 50px;
-    width: 100%;
-    background-color: black;
-
 }
 
 .nav_l{
@@ -40,19 +22,18 @@ header{
     z-index: 3;
 }
 
-.nav_links li_header{
+.nav_links li{
     display: inline-block;
     padding: 20px 40px;
     position: relative;
 }
 
 
-.nav_links li_header a_header{
+.nav_links li a{
     transition: all .3s ease 0s;
-
 }
 
-.nav_links li_header a_header:hover {
+.nav_links li a:hover {
     cursor: pointer;
     color: darkgoldenrod;
 }
@@ -60,40 +41,22 @@ header{
 .s_links{
     position: absolute;
     background-color: black;
+    width: 350px;
     left: 0;
     top: -600px;
     transition: all .3s ease 0s;
-    z-index: 1;
+    z-index: 100;
+    padding: 0;
 }
 
-.s_links li_header{
+.s_links li{
     display: block;
     padding: 20px 40px;
     border-top: 1px solid #ddaa55;
 }
 
-.nav_links li_header:hover ul_header.s_links{
+.nav_links li:hover ul.s_links{
     top: 59px;
-}
-
-
-.header_fixed{
-    position: fixed;
-    top:0;
-    left:0;
-    animation: showElement;
-    animation-duration: 1s;
-}
-@keyframes show_header{
-    0%{
-        opacity: 0;
-        top:-70px;
-    }
-    100%{
-        opacity: 1;
-        top:0;
-    }
-
 }
 
 

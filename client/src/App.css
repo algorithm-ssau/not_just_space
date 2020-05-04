@@ -8,6 +8,10 @@
 
 }
 
+.info-container {
+  padding-left: 40px;
+}
+
 /*MainPage*/
 
 .present-container {
@@ -26,7 +30,6 @@
 
 .main-text-container {
   flex: 6;
-  z-index: 1;
 }
 
 .main-text {
@@ -94,6 +97,7 @@
   font-size: 120%;
   max-width: 240px;
   background-color: yellow;
+  color: black;
 }
 .downloadPdf:hover{
   opacity: 0.8;

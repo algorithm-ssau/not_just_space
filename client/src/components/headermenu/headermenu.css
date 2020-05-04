@@ -5,9 +5,8 @@
     align-items: center;
     background-color: black;
     color: #fdeca6;
-    height: 50px;
-    padding: 30px;
-
+    max-height: 60px;
+    padding: 0px 30px 0px 30px;
 }
 
 .register-btn {
@@ -22,7 +21,7 @@
 
 }
 
-.register-btn:active {
+.register-btn:hover {
     background-color: #da5;
 
 }
@@ -30,6 +29,8 @@
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    box-sizing: border-box;
     animation: showElement;
     animation-duration: 1s;
 }

@@ -16,10 +16,10 @@ export const EducationalPage = () => {
 
             <hr color="black" size="3"/>
             <br/>
-            <div>
+            <div className="info-container">
                 <center><h2>ФОРСАЙТ-СЕССИЯ «ДАЛЬНИЙ КОСМОС»</h2></center>
                 <br/>
-                <p><b>Участники мероприятия:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий.
+                <b>Участники мероприятия:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий.
 
                     <br/><b>Цели мероприятия:</b>
                     <ul className="ed">
@@ -123,7 +123,6 @@ export const EducationalPage = () => {
                             странах.
                         </li>
                     </ul>
-                </p>
                 <br/>
             </div>
         </div>
