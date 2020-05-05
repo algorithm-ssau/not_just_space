@@ -66,26 +66,26 @@
 
 /*About_forum*/
 .aboutForum{
-  margin-left: 10px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin: 15px 25px 15px 15px;
   text-align: justify;
 }
 
 .col_2-3{
-  width: 69.6666666667%;
+  width: 67%;
   float: left;
+}
+.clear{
+  clear: both;
 }
 
 .col_1-3 {
-  width: 30.3333333333%;
+  width: 20%;
   float: left;
-  padding-left: 20px;
+  margin-left: 70px ;
 }
 
 .cels{
   margin-left: 40px;
-  margin-right: 40px;
 }
 
 
@@ -99,10 +99,14 @@
   background-color: yellow;
   color: black;
 }
+
 .downloadPdf:hover{
   opacity: 0.8;
 }
 
+.downloadPdf:visited{
+  color: powderblue;
+}
 
 
 
