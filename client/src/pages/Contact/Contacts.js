@@ -28,12 +28,11 @@ export const ContactsPage = () => {
             </div>
             <div className="map">
                 <br/>
-                <br/>
-                <br/>
+
                 <h1 >Карта</h1>
                 <div>
-                    <br/>
-
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.325037662168!2d50.176155454955676!3d53.21202019026088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661ebcd7e0d123%3A0xd5cd73064fb323b6!2z0JzQvtGB0LrQvtCy0YHQutC-0LUg0YguLCAzNCwg0KHQsNC80LDRgNCwLCDQodCw0LzQsNGA0YHQutCw0Y8g0L7QsdC7LiwgNDQzMDg2!5e0!3m2!1sru!2sru!4v1588691052721!5m2!1sru!2sru">
+                    </iframe>
                 </div>
             </div>
         </div>
