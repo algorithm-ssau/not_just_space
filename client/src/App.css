@@ -91,7 +91,7 @@
 
 /*Programm*/
 .downloadPdf{
-  margin: 20px;
+  margin: 20px 10px 20px 45px;
   font-style: italic;
   font-weight: bolder;
   font-size: 120%;
@@ -108,6 +108,34 @@
   color: powderblue;
 }
 
+.tabl2{
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background-color: cyan;
+  color: white;
+}
+
+.tabl2{
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 900px;
+  min-width: 400px;
+}
+
+.tabl2 th{
+  color: #050025;
+  font-size: 20px;
+  padding: 10px;
+}
+.tabl2 td{
+  background-color: #050025;
+  padding: 10px;
+}
+
+.programms{
+  text-align: left;
+}
 
 
 
