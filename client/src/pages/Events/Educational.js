@@ -14,7 +14,7 @@ export const EducationalPage = () => {
                 <br/>
             </div>
 
-            <hr color="black" size="3"/>
+
             <br/>
             <div className="info-container">
                 <center><h2>ФОРСАЙТ-СЕССИЯ «ДАЛЬНИЙ КОСМОС»</h2></center>

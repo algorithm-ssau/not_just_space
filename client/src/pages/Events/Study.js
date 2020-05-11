@@ -15,7 +15,7 @@ export const StudyPage = () => {
                     <br/>
                 </div>
 
-                <hr color="black" size="3"/>
+
                 <br/>
             </div>
             <div className="info-container">
