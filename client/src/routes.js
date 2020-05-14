@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import { MainPage } from './pages/MainPage'
+import { MainPage } from './pages/MainPage/MainPage'
 import {AboutForum} from "./pages/AboutForum/About_forum";
 import {ContactsPage} from "./pages/Contact/Contacts";
 import {Programm} from "./pages/Programm/Programm";
