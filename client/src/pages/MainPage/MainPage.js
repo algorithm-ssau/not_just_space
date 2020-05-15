@@ -4,6 +4,7 @@ import '../../App.css'
 import SULogo from './SamaraUniversityLogo.jpg'
 import RCLogo from './RoscosmosLogo.jpg'
 import RSCPLogo from './RSCProgressLogo.jpg'
+import { Slider } from '../../components/slider/slider'
 
 export const MainPage = () => {
     return (
@@ -32,28 +33,33 @@ export const MainPage = () => {
                         </button>
                     </div>
                 </NavLink>
-                <div>
-                    <p>«Краш-тест» научных проектов</p>
-                    <button>
-                        2
+                <NavLink to="/client/src/pages/Events/Study.js">
+                    <div>
+                        <p>«Краш-тест» научных проектов</p>
+                        <button>
+                            2
                     </button>
-                </div>
-                <div>
-                    <p>Экскурсия-квест «От мечты к свершениям»</p>
-                    <button>
-                        3
+                    </div>
+                </NavLink>
+
+                <NavLink to="/client/src/pages/Events/Excursions.js">
+                    <div>
+                        <p>Экскурсия-квест «От мечты к свершениям»</p>
+                        <button>
+                            3
                     </button>
-                </div>
+                    </div>
+                </NavLink>
             </div>
 
             <hr/>
 
             <div className="container citation-container"> {/* TODO Реализовать карусель с цитатами */}
-                <center>
-                    <h3>
-                        Какая-то цитата
-                    </h3>
-                </center>
+                <Slider>
+                    <center>Цитатки1</center>
+                    <center>Цитатки2</center>
+                    <center>Цитатки3</center>
+                </Slider>
             </div>
 
             <hr />

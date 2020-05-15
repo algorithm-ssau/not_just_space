@@ -33,6 +33,7 @@
     box-sizing: border-box;
     animation: showElement;
     animation-duration: 1s;
+    z-index: 10;
 }
 @keyframes showElement{
     0% {
