@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../common/css/modalwnd.css'
 
-export const BaseWnd = ({ wndTitle, isShowing, hide, ...props }) => {
+export const BaseWnd = ({ wndTitle, isShowing, hide, wndStyle, ...props }) => {
     /**
      * Базовый компонент для модальных окон.
      * Для открытия и закрытия можно использовать хук useToggle.
@@ -11,7 +11,7 @@ export const BaseWnd = ({ wndTitle, isShowing, hide, ...props }) => {
      */
     return (
         isShowing && <div className="modal-block">
-            <div className="window-block">
+            <div className="window-block" style={wndStyle}>
                 <div className="window-header">
                     <div className="window-title">
                         {wndTitle}
