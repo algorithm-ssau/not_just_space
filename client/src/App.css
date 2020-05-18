@@ -41,7 +41,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
+.days-container a {
+  color: black;
 }
 
 .day-box {
@@ -60,7 +63,29 @@
   background-color: #050025; /* TODO Заменить на картинку */
   color: #fdeca6;
   height: 300px;
+}
 
+.logos-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logos-container img {
+  height: 125px;
+}
+
+.programms-container a {
+  border-left: 1px solid black;
+  transition: 1s;
+}
+
+.programms-container a:hover {
+  background-color: lightgray;
+  transition: 1s;
+}
+
+.programms-container :first-child {
+  border-left: none;
 }
 
 
