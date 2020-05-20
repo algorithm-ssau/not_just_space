@@ -5,19 +5,10 @@ import './ed_style.css'
 export const Career = () => {
     return (
         <div className="education">
-            <div>
-
-                <div className="head">
-                    <br/>
-                    <center>
-                        <h1>Профориентационная программа</h1>
-                    </center>
-                    <br/>
-                </div>
-
-
-                <br/>
+            <div className="head-prof">
+                <h1>Профориентационная программа</h1>
             </div>
+            <br/>
             <div className="info-container">
                 <center><h2>ОБЛАСТНОЙ КОНКУРС НАУЧНО-ТЕХНИЧЕСКОГО ТВОРЧЕСТВА ДЕТЕЙ «АЗБУКА НАУКИ»</h2></center>
                 <br/>
@@ -49,8 +40,8 @@ export const Career = () => {
                 </ul>
                 <br/>
                 <center><h2>БРЕЙН-РИНГ: «ЭКИПАЖ К ПОЛЕТУ ГОТОВ!»</h2></center>
-                    <br/>
-                    <b>Участники:</b> обучающиеся в 5-7 классах общеобразовательных учреждений.
+                <br/>
+                <b>Участники:</b> обучающиеся в 5-7 классах общеобразовательных учреждений.
                 <br/>
                 <b>Цель мероприятия:</b>
                 <ul className="ed">

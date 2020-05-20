@@ -1,8 +1,98 @@
-.head{
-    background-color: #050025;
+
+.head-ed {
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.75)), url(./vistavka.jpeg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
 }
-.head h1{
+
+.head-ed h1{
+    text-align: center;
+    top: 150px;
     color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-np{
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.75)), url(./Presentations.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-np h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-npp{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.75)), url(./Moon.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+.head-npp h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-stud{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.58)), url(./Sunsystem.png);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-stud h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+
+.head-prof{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.58)), url(./cosmon.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-prof h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-ex{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.58)), url(./roket.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-ex h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
 }
 
 .ed li{

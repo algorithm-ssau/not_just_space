@@ -6,15 +6,9 @@ export const EducationalPage = () => {
     return (
         <div className="education">
 
-            <div className="head">
-                <br/>
-                <center>
+            <div className="head-stud">
                     <h1>Образовательная программа</h1>
-                </center>
-                <br/>
             </div>
-
-
             <br/>
             <div className="info-container">
                 <center><h2>ФОРСАЙТ-СЕССИЯ «ДАЛЬНИЙ КОСМОС»</h2></center>

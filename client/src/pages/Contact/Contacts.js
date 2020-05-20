@@ -8,7 +8,6 @@ export const ContactsPage = () => {
         <div>
             <div className="picture">
                 <img  src={contacts1}/>
-
             </div>
             <br/>
             <br/>
