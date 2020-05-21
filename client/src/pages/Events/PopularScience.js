@@ -11,7 +11,7 @@ export const PopScience = () => {
             </div>
 
             <br/>
-            <div className="info-container">
+            <div className="info-container1">
                 <center><h2>ЛЕКЦИИ КОСМОНАВТОВ</h2></center>
                 <br/>
                 <b>Участники:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий, учащиеся

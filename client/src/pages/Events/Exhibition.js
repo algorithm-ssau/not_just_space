@@ -10,7 +10,7 @@ export const ExhibitPage = () => {
                 <h1>Выставочная программа</h1>
          </div>
             <br/>
-            <div className="info-container">
+            <div className="info-container1">
                 <b>Участники:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий.<br/>
                 <center><h2>Музейно-выставочный центр «Самара Космическая»</h2></center>
                 <br/>
