@@ -1,13 +1,11 @@
-.picture{
+
+.head-k{
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.75)), url(./contacts1.jpg);
+    height: 500px;
     position: relative;
-    display: inline-block;
     z-index: -1;
 }
-.picture img{
-    width: 100%;
-    height: 100%;
-    filter: brightness(50%);
-}
+
 
 .contact_text{
     font-family: 'Oswald', sans-serif;
@@ -22,7 +20,6 @@
     width: 100%;
     height: 500px;
 }
-
 
 
 

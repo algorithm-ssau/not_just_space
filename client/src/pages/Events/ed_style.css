@@ -1,6 +1,29 @@
+.info-container1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+
+.head{
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.75)), url(./space.jpg);
+
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
 
 .head-ed {
-    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.75)), url(./vistavka.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.75)), url(./vistavka.jpeg);
     height: 500px;
     position: relative;
     z-index: -1;
@@ -116,11 +139,12 @@
 }
 
 .tabl1 th{
+    color: #050025;
     font-size: 18px;
     padding: 10px;
 }
 .tabl1 td{
-    background-color: #050025;
+    background: linear-gradient(to right, #000e5c, #050025);
     padding: 10px;
 }
 

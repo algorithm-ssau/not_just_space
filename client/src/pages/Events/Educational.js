@@ -10,7 +10,7 @@ export const EducationalPage = () => {
                     <h1>Образовательная программа</h1>
             </div>
             <br/>
-            <div className="info-container">
+            <div className="info-container1">
                 <center><h2>ФОРСАЙТ-СЕССИЯ «ДАЛЬНИЙ КОСМОС»</h2></center>
                 <br/>
                 <b>Участники мероприятия:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий.
