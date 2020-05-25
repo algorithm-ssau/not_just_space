@@ -5,6 +5,16 @@ import './Programma_Rosmolodezh.pdf'
 export const Programm = () => {
     return (
         <div>
+            <div className="head-programm">
+                    <h1>Программа</h1>
+            </div>
+
+            <div className="downloadPdf">
+                <a href="Programma_Rosmolodezh.pdf" download="Программа_Росмолодежь_2020.pdf">
+                    Cкачать программу в PDF
+                </a>
+            </div>
+            
             <div className="day">
                 30 июня
             </div>
@@ -247,14 +257,6 @@ export const Programm = () => {
                 </table>
             </div>
             <br></br>
-
-
-            <div className="downloadPdf">
-                <a href="Programma_Rosmolodezh.pdf"
-                   target="_blank">
-                    Cкачать программу PDF
-                </a>
-            </div>
 
         </div>
     )
