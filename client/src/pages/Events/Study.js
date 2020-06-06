@@ -5,20 +5,12 @@ import './ed_style.css'
 export const StudyPage = () => {
     return (
         <div className="education">
-            <div>
+            <div className="head-np">
 
-                <div className="head">
-                    <br/>
-                    <center>
-                        <h1>Научная программа</h1>
-                    </center>
-                    <br/>
-                </div>
-
-
-                <br/>
+                    <h1>Научная программа</h1>
             </div>
-            <div className="info-container">
+            <br/>
+            <div className="info-container1">
                 <center><h2>ЗАЩИТА ПРОЕКТОВ УЧАСТНИКОВ НАУЧНОГО КОНКУРСА В ФОРМАТЕ «КРАШ-ТЕСТА»</h2></center>
                 <br/>
                 <b>Участники:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий.

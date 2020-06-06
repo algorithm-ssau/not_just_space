@@ -1,19 +1,16 @@
 import React from 'react'
 import '../../App.css'
 import './Style_contact.css'
-import contacts1 from './contacts1.jpg'
 
 export const ContactsPage = () => {
     return (
         <div>
-            <div className="picture">
-                <img  src={contacts1}/>
-
+            <div className="head-k">
             </div>
             <br/>
             <br/>
             <br/>
-            <div className="info-container">
+            <div className="info-container1">
                 <div className= "contact_text">
                     Федеральное государственное автономное образовательное учреждение высшего образования «Самарский
                         национальный исследовательский университет имени академика С.П. Королева»

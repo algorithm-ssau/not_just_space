@@ -5,19 +5,13 @@ import './ed_style.css'
 export const PopScience = () => {
     return (
         <div className="education">
-            <div>
 
-                <div className="head">
-                    <br/>
-                    <center>
-                        <h1>Научно-популярная программа</h1>
-                    </center>
-                    <br/>
-                </div>
-
-                <br/>
+            <div className="head-npp">
+                <h1>Научно-популярная программа</h1>
             </div>
-            <div className="info-container">
+
+            <br/>
+            <div className="info-container1">
                 <center><h2>ЛЕКЦИИ КОСМОНАВТОВ</h2></center>
                 <br/>
                 <b>Участники:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий, учащиеся

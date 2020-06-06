@@ -1,8 +1,121 @@
-.head{
-    background-color: #050025;
+.info-container1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
 }
+
+
+.head{
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.75)), url(./space.jpg);
+
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
 .head h1{
+    text-align: center;
+    top: 150px;
     color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-ed {
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.75)), url(./vistavka.jpeg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-ed h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-np{
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.75)), url(./Presentations.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-np h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-npp{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.75)), url(./Moon.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+.head-npp h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-stud{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.58)), url(./Sunsystem.png);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-stud h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+
+.head-prof{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.58)), url(./cosmon.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-prof h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+}
+
+.head-ex{
+    background:linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.58)), url(./roket.jpg);
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.head-ex h1{
+    text-align: center;
+    top: 150px;
+    color: #fdeca6;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
 }
 
 .ed li{
@@ -26,11 +139,12 @@
 }
 
 .tabl1 th{
+    color: #050025;
     font-size: 18px;
     padding: 10px;
 }
 .tabl1 td{
-    background-color: #050025;
+    background: linear-gradient(to right, #000e5c, #050025);
     padding: 10px;
 }
 

@@ -96,6 +96,23 @@
   font-size: 17px;
 }
 
+.head-aboutForum{
+  background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.75)), url(./pages/AboutForum/previewForum.jpg);
+
+  height: 500px;
+  position: relative;
+  z-index: -1;
+}
+
+.head-aboutForum h1{
+  text-align: center;
+  top: 150px;
+  color: #fdeca6;
+  font-size: 3em;
+  position: relative;
+  margin: 0;
+}
+
 .col_2-3{
   width: 67%;
   float: left;
@@ -116,6 +133,23 @@
 
 
 /*Programm*/
+
+.head-programm{
+  background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.75)), url(./pages/Programm/ProgramPrev.jpg);
+
+  height: 500px;
+  position: relative;
+  z-index: -1;
+}
+
+.head-programm h1{
+  text-align: center;
+  top: 150px;
+  color: #fdeca6;
+  font-size: 3em;
+  position: relative;
+  margin: 0;
+}
 
 .tabl2{
   text-align: center;
@@ -159,11 +193,11 @@ tr .food{
 
 
 .downloadPdf{
-  margin: 20px 10px 20px 45px;
+  margin: 20px 10px 20px 1200px;
   font-style: italic;
   font-weight: bolder;
   font-size: 120%;
-  max-width: 240px;
+  max-width: 260px;
   background-color: yellow;
   color: black;
 }
@@ -175,7 +209,6 @@ tr .food{
 .downloadPdf:visited{
   color: powderblue;
 }
-
 
 
 

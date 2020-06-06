@@ -5,7 +5,12 @@ import map2 from'./map2.jpg'
 
 export const AboutForum = () => {
     return (
-        <div className="aboutForum">
+        <div>
+
+            <div className="head-aboutForum">
+                    <h1>О форуме</h1>
+            </div>
+            <div className="aboutForum">
             <div>
                 <p><b>Всероссийский космический форум «НеПростоКосмос»</b> представляет из себя комплекс
                     мероприятий образовательной, научной, просветительской и патриотической направленности.</p>
@@ -73,7 +78,7 @@ export const AboutForum = () => {
                     <p>Форум не имеет возрастных и профессиональных ограничений и охватывает широкую аудиторию
                         0+.</p>
                 </div>
-
+                </div>
         </div>
     )
 }

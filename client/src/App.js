@@ -3,6 +3,7 @@ import {BrowserRouter as Router } from 'react-router-dom'
 import {HeaderMenu} from './components/headermenu/headermenu'
 import { FooterComponent } from './components/footercmp/footercmp';
 import { useRoutes } from './routes';
+
 import './App.css';
 
 
@@ -15,6 +16,7 @@ function App() {
           {routes}
         </div>
       <FooterComponent />
+
     </Router>
   );
 }
