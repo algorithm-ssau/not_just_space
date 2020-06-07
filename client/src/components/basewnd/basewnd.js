@@ -10,7 +10,9 @@ export const BaseWnd = ({ wndTitle, isShowing, hide, wndStyle, ...props }) => {
      * @hide {Function} функция закрытия окна, переводящее isShowing в false
      */
     return (
-        isShowing && <div className="modal-block">
+        isShowing && <div className="modal-block"
+            onClick={(e) => { if (e.currentTarget === e.target) hide(); }}
+        >
             <div className="window-block" style={wndStyle}>
                 <div className="window-header">
                     <div className="window-title">

@@ -1,0 +1,24 @@
+.slider-btn {
+    border: 1px solid rgb(100, 100, 100);
+    outline: none
+}
+
+.slider-btn:hover {
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.slider-btn:active {
+    background-color: rgb(200, 200, 200);
+}
+
+.slider-btn.left {
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+
+.slider-btn.right {
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}

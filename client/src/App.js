@@ -5,12 +5,14 @@ import { FooterComponent } from './components/footercmp/footercmp';
 import { useRoutes } from './routes';
 
 import './App.css';
+import ScrollToTop from './components/scrollToTop';
 
 
 function App() {
   const routes = useRoutes()
   return (
     <Router>
+      <ScrollToTop />
       <HeaderMenu />
         <div className="app-container">
           {routes}
