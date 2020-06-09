@@ -14,6 +14,7 @@
 
 .dark-container {
   background-color: #050025;
+  background: linear-gradient(to right, #000e5c, #050025);
   color: #fdeca6;
 }
 
