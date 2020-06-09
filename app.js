@@ -4,7 +4,6 @@ const config = require('config');
 
 const app = express();
 
-const PORT = config.get('PORT') || 5000;
 
 if (process.env.NODE_ENV === 'production') {
     // Serve static files from the React app
@@ -14,6 +13,7 @@ if (process.env.NODE_ENV === 'production') {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
     })
 }
+const PORT = config.get('PORT') || 5000;
 
 async function start() {
     try {
