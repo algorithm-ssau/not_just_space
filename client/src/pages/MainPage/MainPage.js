@@ -14,7 +14,7 @@ import SPKorolev from './SPKorolev.jpg'
 import MessagesHarshMan from './MessagesHarshMan.jpg'
 
 import FarSpace from './FarSpace.jpg'
-import DreamToReality from './DreamToReality.jpg'
+import Dog from './dog.jpg'
 import ScienceProjects from './ScienceProjects.jpg'
 
 import Spiker1 from './Spiker1.jpg'
@@ -71,7 +71,7 @@ export const MainPage = () => {
                 <NavLink to="/client/src/pages/Events/Excursions.js">
                     <div>
                         <center><p>Экскурсия-квест «От мечты к свершениям»</p></center>
-                        <img src={DreamToReality} alt="" height="250"/>
+                        <img src={Dog} alt="" height="250" align="center"/>
                     </div>
                 </NavLink>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import './ed_style.css'
+import Logo from './dog.jpg'
 
 export const Excurs = () => {
     return (
@@ -28,7 +29,10 @@ export const Excurs = () => {
                 двигателей, газотурбинных установок для наземного использования в газовой отрасли, энергетике.
                 <br/>
                 <br/>
-                <center><h2>ЭКСКУРСИЯ-КВЕСТ ПО САМАРСКОМУ УНИВЕРСИТЕТУ</h2></center>
+
+
+                <center><h2>ЭКСКУРСИЯ-КВЕСТ ПО САМАРСКОМУ УНИВЕРСИТЕТУ <img src={Logo} class="center-logo"/> </h2></center>
+                
                 <br/>
                 <b>Участники:</b> студенты, аспиранты и молодые учёные вузов, специалисты предприятий.
                 <br/>

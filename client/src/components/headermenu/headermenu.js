@@ -5,7 +5,7 @@ import { useToggle } from '../../hooks/useToggle'
 import {Menus} from "../menus/menu";
 import {NavLink} from 'react-router-dom'
 import '../menus/menu_fixed.js'
-import logo from './logo1.png'
+import logo from './logo1.jpg'
 
 export const HeaderMenu = () => {
     var [isShowing, toggle] = useToggle();
