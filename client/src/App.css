@@ -26,6 +26,7 @@
   flex-direction: column;
   justify-content: space-around;
   background-image: url('pages/MainPage/Banner1.jpg');
+  background-size: cover;
 }
 
 .date-text {
