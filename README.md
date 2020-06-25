@@ -14,6 +14,7 @@
 Установить heroku CLI
 $ heroku login
 (Пароль узнать по телефону +79997013491)
+$ heroku git:remote -a space-territory
 $ git commit
 $ git push heroku master
 
