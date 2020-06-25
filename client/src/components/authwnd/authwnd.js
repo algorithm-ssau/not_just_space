@@ -51,7 +51,7 @@ export const AuthWnd = ({ isShowing, hide }) => {
                     onClick={switchRegistrationEvent}
                     className="slider-btn"
                 >
-                    «Краш-тест» научных проектов
+                    «Краш-тест» научных проектов»
                 </button>
                 <button
                     value='dreamToFulfilment'
